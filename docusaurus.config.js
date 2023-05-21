@@ -69,6 +69,12 @@ const config = {
             label: 'JSM Documentation',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'whSidebar',
+            position: 'left',
+            label: 'Whitehill Documentation',
+          },
+          {
             href: 'https://axon.whitehill.club',
             label: 'Axon',
             position: 'right',
@@ -89,6 +95,11 @@ const config = {
               {
                 label: 'JSM Documentation',
                 to: '/docs/jsm/intro',
+              },
+
+              {
+                label: 'Whitehill Documentation',
+                to: '/docs/whitehill/intro',
               },
             ],
           },
