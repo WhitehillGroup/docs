@@ -50,7 +50,7 @@ Inside the `JSM | SelfCheckout V3` folder, you will find the `Accounts` settings
 
 The ID in each account must be **unique**. To setup the actual operator barcode, click the tool, open the handle and click `SCO-AUTH`. You can then update the information underneath attributes, including the `OperatorID` and `SecurityKey`.
 
-[barcodeConfiguring](operatorBarcode.png)
+[barcodeConfiguring](img/operatorBarcode.png)
 
 ### Step 6) Pick & Mix {#6}
 We offer several types of different checkouts. Some checkouts differ, such as the scanner or the ability to accept cash. You can choose and delete anything that you're not interested in.
@@ -62,4 +62,4 @@ We offer several types of different checkouts. Some checkouts differ, such as th
 
 You can also adjust the `CardOnly` feature to disable cash payments. The `StartMode` feature has 4 different labelled options, used to control the boot process when the game starts.
 
-[examplePathOfCheckout](checkoutPath.png)
+[examplePathOfCheckout](img/checkoutPath.png)
