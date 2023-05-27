@@ -2,15 +2,14 @@
 sidebar_position: 1
 ---
 
-# Intro
-
-Welcome to JSM! We are a leading provider of Roblox retail technologies.
+# Introduction
+Welcome to JSM! We are a leading provider of ROBLOX retail technologies, providing a variety of different products to fit your group needs.
 
 ## Getting Started
 
 :::info Heads up!
 
-You'll need to be in our [Discord server](https://discord.gg/jsm) to download and install your purchased products.
+You'll need to be in our [Discord Server](https://discord.gg/QVaxp9t) to download and install your purchased products.
 
 :::
 
