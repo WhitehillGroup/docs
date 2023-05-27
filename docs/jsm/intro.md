@@ -13,4 +13,4 @@ You'll need to be in our [Discord server](https://discord.gg/QVaxp9t) to downloa
 
 :::
 
-Get started by purchasing a JSM licence from our [Product Hub](https://www.roblox.com/games/13188104119/JSM-Product-Hub).
+Get started by purchasing a JSM licence from our [Product Hub](https://www.roblox.com/games/13188104119/JSM-Product-Hub). Once done, you can move onto claiming your desired product.
