@@ -5,6 +5,12 @@ sidebar_position: 1
 # Introduction
 Welcome to JSM! We are a leading provider of Roblox retail technologies, providing a variety of different products to fit your group needs.
 
+:::note
+
+We're still working on this documentation, some content may be missing or incomplete and all content is subject to change.
+
+:::
+
 ## Getting Started
 
 :::info Heads up!
