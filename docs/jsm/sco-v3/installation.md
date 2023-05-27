@@ -10,7 +10,7 @@ Download the recent available file for this product in the [Discord server](http
 
 :::
 
-## Step 1) Insertion {#1}
+### Step 1) Product Insertion {#1}
 Insert your file by 'dragging' the product file into Roblox studio with your game fully loaded. Use `CTRL + U` to ungroup the product model
 
 
