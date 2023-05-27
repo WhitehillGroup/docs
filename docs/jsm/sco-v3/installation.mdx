@@ -54,7 +54,7 @@ Inside the `JSM | SelfCheckout V3` folder, you will find the `SystemConfig` scri
 </Tabs>
 
 
-### Step 5) Operator Barcodes & Pins
+### Step 5) Operator Barcodes & Pins {#5}
 Inside the `JSM | SelfCheckout V3` folder, you will find the `Accounts` settings script under `Deploy`. You can manage the access level, operator ID and pins through this script.
 
 `Employee` - able to handle basic interventions, e.g, age approval
@@ -76,3 +76,6 @@ We offer several types of different checkouts. Some checkouts differ, such as th
 You can also adjust the `CardOnly` feature to disable cash payments. The `StartMode` feature has 4 different labelled options, used to control the boot process when the game starts.
 
 ![examplePathOfCheckout](img/checkoutPath.png)
+
+### Step 7) Adding Items {#7}
+The **poppadom** is an example item. You must have an bindable function named `SCOItem` with the BoolValue `AgeRestricted` and NumberValue `Cost` outside the handle. You can also have the BoolValue `EAS_Active` inside the handle if you own the anti-theft gates.
