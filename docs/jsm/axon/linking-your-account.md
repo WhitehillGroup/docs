@@ -11,6 +11,6 @@ sidebar_position: 1
 
 :::caution
 
-> Do **not** share your code. This is unique to your own Roblox account. We use your code to link your Discord & Roblox account together, so anyone else who links with your code will not be our problem.
+Do **not** share your code. This is unique to your own Roblox account. We use your code to link your Discord & Roblox account together, so anyone else who links with your code will not be our problem.
 
 :::
