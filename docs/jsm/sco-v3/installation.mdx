@@ -1,3 +1,6 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ---
 sidebar_position: 1
 ---
@@ -28,18 +31,22 @@ Move `JSM | ATM Tools`, `JSM | UI Template`, `Receipt`, `Debit Card` into **Serv
 ### Step 4) Whole System Configuration {#4}
 Inside the `JSM | SelfCheckout V3` folder, you will find the `SystemConfig` script. Double-click it to be shown the different options that can be customised. This step will contain some features to elaborate, although the rest is annotated or self-explanatory.
 
-`UITheme`
-- If you set this to 'Custom', it will load your own theme from **ServerStorage**.
-- If you set this to 'Default', it will load the commonly used JSM UI.
-- We offer some additional themes created by other creators, check out the **Themes** page for information.
+<Tabs>
+  <TabItem value="uitheme" label="UITheme" default>
+    - If you set this to 'Custom', it will load your own theme from **ServerStorage**.
+    - If you set this to 'Default', it will load the commonly used JSM UI.
+    - We offer some additional themes created by other creators, check out the **Themes** page for information.
+  </TabItem>
+  <TabItem value="maintenance" label="Maintenance">
+    - It is important to note that not all self-checkouts support this feature.
+    - Some checkouts, not all, are presented with an 'on/off' button.
+  </TabItem>
+  <TabItem value="ingamestaff" label="InGameStaff">
+    - This feature is used to disable interventions, e.g, help call, when a staff member is not present in-game to keep checkouts running
+    - You can control the `StaffThreshold` to set the bare minimum of staff required before disabling interventions
+  </TabItem>
+</Tabs>
 
-`Maintenance`
-- It is important to note that not all self-checkouts support this feature.
-- Some checkouts are presented with an 'on/off' button.
-
-`InGameStaff`
-- This feature is used to disable interventions, e.g, help call, when a staff member is not present in-game to keep checkouts running
-- You can control the `StaffThreshold` to set the bare minimum of staff required before disabling interventions
 
 ### Step 5) Operator Barcodes & Pins
 Inside the `JSM | SelfCheckout V3` folder, you will find the `Accounts` settings script under `Deploy`. You can manage the access level, operator ID and pins through this script.
