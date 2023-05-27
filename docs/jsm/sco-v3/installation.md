@@ -17,7 +17,7 @@ This product comes with the **JSM SelfServ**, an ATM which can also work with th
 :::
 
 ### Step 1) Enable HTTP Requests {#1}
-In Roblox studio with your selected game open, click the 'Home' tab, then 'Game Settings'. Move to the 'Security' tab in the open window and make sure the slider for 'Allow HTTP Requests' is enabled and <span style="color:green">green</span> then hit 'Save'.
+In Roblox studio with your selected game open, click the 'Home' tab, then 'Game Settings'. Move to the 'Security' tab in the open window and make sure the slider for 'Allow HTTP Requests' is enabled and then hit 'Save'.
 
 ### Step 2) Product Insertion {#2}
 Insert your file by 'dragging' the product file into Roblox studio with your game fully loaded. Use `CTRL + U` to ungroup the model. You can delete anything relevant to the ATM if you do not own it.
