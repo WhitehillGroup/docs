@@ -21,5 +21,5 @@ Update `UITheme` to use `NightSky` for this theme created by `@tierdostrich1`
 > a basic dark-coloured theme
 
 ### Droplet Light {#2}
-Update `UITheme` to use `DropetLight` for this theme created by `@Nicklaus_s`
+Update `UITheme` to use `DropletLight` for this theme created by `@Nicklaus_s`
 > a mix of white & blue colours combined with rounded buttons and clearer icons
