@@ -2,6 +2,12 @@
 sidebar_position: 1
 ---
 
+:::warning Heads up!
+
+JSM product downloads will be removed from the Discord server on **7th June 2023**. They will be moving to the [Axon web portal](https://axon.whitehill.club). It is recommended that you download future products from here.
+
+:::
+
 # Linking your Roblox account
 1. Start by visiting our [Roblox Hub](https://www.roblox.com/games/13188104119).
 2. Towards the bottom right of your screen, generate a code by clicking 'generate'.
