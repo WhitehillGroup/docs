@@ -13,10 +13,4 @@ We're still working on this documentation, some content may be missing or incomp
 
 ## Getting Started
 
-:::info Heads up!
-
-You'll need to be in our [Discord server](https://discord.gg/QVaxp9t) to download and install your purchased products.
-
-:::
-
 Get started by purchasing a JSM licence from our [Product Hub](https://www.roblox.com/games/13188104119/JSM-Product-Hub). Once done, you can move onto claiming your desired product.
