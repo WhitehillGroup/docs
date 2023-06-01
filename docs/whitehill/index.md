@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+sidebar_title: intro
+sidebar_label: Introduction
 ---
 
 # Intro
