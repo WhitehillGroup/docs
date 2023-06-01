@@ -91,12 +91,12 @@ const config = {
             items: [
               {
                 label: 'JSM Documentation',
-                to: '/docs/jsm/intro',
+                to: '/docs/jsm',
               },
 
               {
                 label: 'Whitehill Documentation',
-                to: '/docs/whitehill/intro',
+                to: '/docs/whitehill',
               },
             ],
           },
