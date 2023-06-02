@@ -4,8 +4,59 @@ sidebar_position: 1
 
 # Installation
 
-:::caution
+:::info
 
-Missing information? This page is currently under construction, try come back later!
+Download the recent available file for this product via [Axon](https://axon.whitehill.club). 
 
 :::
+
+:::caution
+
+SCO v3 automatically disables the `EAS_Active` value after a product has been bought. At this moment of time, the **mainbanks** do not support this feature. This means you will need to place the deactivation fields on scanners for the time being.
+
+:::
+
+### Step 1) Enable HTTP Requests {#1}
+In Roblox Studio with your selected game open, click the 'Home' tab, then 'Game Settings'. Move to the 'Security' tab in the open window and make sure the slider for 'Allow HTTP Requests' is enabled and then hit 'Save'.
+
+### Step 2) Product Insertion {#2}
+Insert your file by 'dragging' the product file into Roblox studio with your game fully loaded. The deactivation field has been purposely left unobfuscated to show you an example of disabling tags, you could place this in one-way systems to reduce the amount of activations by trolling customers.
+
+### Step 3) Monitoring Station & Operator Barcodes {3}
+The monitoring station is used to keep track of activation events. It also comes with an integration for [VoCoVo](https://discord.com/invite/3DR632F).
+
+1. Click the station in your workspace, then double-click `Settings` in explorer
+2. For **VoCoVo**, set `VocovoEnabled` to `true`
+3. Adjust other variables such as the `Access Pin` for login. Operator settings are for the operator barcode.
+4. Match the `OperatorID` and `OperatorSecurityKey` you picked to the 'Operator Barcode' in explorer by clicking `SCO-AUTH`.
+
+![exampleOperatorBarcode](img/operatorBarcode.png)
+
+### Step 4) Gate Configuration {4}
+If you're planning to use more than one set of anti-theft gates for your store, you will need to setup 'zones'. This needs to be done for the gate & sensor.
+
+1. In explorer, click the 'Sensor' for your desired gate
+2. Change the `Zone` to a unique numerical value that isn't used by any other gate
+3. Repeat this for both of your anti-theft gates, using the same numerical value as your sensor
+
+:::tip
+
+You can have an unlimited number of sensor and anti-theft gates for your game, just adjust the `Zone` in each model to link them together.
+
+:::
+
+:::caution
+
+This step is very important to prevent activations all over your store. If a sensor/gate isn't working, double check that you [set the zones correctly](#4).
+
+:::
+
+### Step 5) Creation of Items {5}
+The **Test Tag** can be used to test your gates, it can also show you how to 'protect' your product to raise an alarm from the anti-theft gates.
+
+1. Click onto your desired tool in explorer
+2. **Inside** the `Handle`, click the plus & search for `BoolValue`
+3. Change the name of the `BoolValue` to `EAS_Active`
+4. Enable the value to 'arm' the tag for future activations
+
+Products like SCO v3 will search for `EAS_Active` inside your tool handle, and will then disable the value to prevent activating the gate's alarm.
