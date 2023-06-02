@@ -1,0 +1,8 @@
+{
+    "label": "EAS",
+    "position": 4,
+    "link": {
+      "type": "generated-index",
+      "description": "Our anti-theft gates, inspired by Sensormatic, aim to protect your stores from thieves by detecting active EAS tags."
+    }
+  }
