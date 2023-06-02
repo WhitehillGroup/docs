@@ -3,6 +3,15 @@ sidebar_position: 1
 ---
 
 # Linking your Roblox account
+
+:::info
+
+We'll be phasing out Discord product claiming soon. Use the [Axon portal](https://axon.whitehill.club) to download and purchase your products instead.
+
+Users with <13 Roblox accounts should continue to use the Discord methods for now.
+
+:::
+
 1. Start by visiting our [Roblox Hub](https://www.roblox.com/games/13188104119).
 2. Towards the bottom right of your screen, generate a code by clicking 'generate'.
 3. Copy the full contents of the unique code you have been given.
