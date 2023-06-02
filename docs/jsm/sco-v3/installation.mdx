@@ -19,16 +19,16 @@ This product comes with the **JSM SelfServ**, an ATM which can also work with th
 
 :::
 
-### [1] Enable HTTP Requests {#1}
+### 1) Enable HTTP Requests {#1}
 In Roblox Studio with your selected game open, click the 'Home' tab, then 'Game Settings'. Move to the 'Security' tab in the open window and make sure the slider for 'Allow HTTP Requests' is enabled and then hit 'Save'.
 
-### [2] Product Insertion {#2}
+### 2) Product Insertion {#2}
 Insert your file by 'dragging' the product file into Roblox studio with your game fully loaded. Use `CTRL + U` to ungroup the model. You can delete anything relevant to the ATM if you do not own it.
 
-### [3] Folder Movement {#3}
+### 3) Folder Movement {#3}
 Move `JSM | ATM Tools`, `JSM | UI Template`, `Receipt`, `Debit Card` into **ServerStorage**.
 
-### [4] Whole System Configuration {#4}
+### 4) Whole System Configuration {#4}
 Inside the `JSM | SelfCheckout V3` folder, you will find the `SystemConfig` script. Double-click it to be shown the different options that can be customised. This step will contain some features to elaborate, although the rest is annotated or self-explanatory.
 
 <Tabs>
@@ -54,7 +54,7 @@ Inside the `JSM | SelfCheckout V3` folder, you will find the `SystemConfig` scri
 </Tabs>
 
 
-### [5] Operator Barcodes & Pins {#5}
+### 5) Operator Barcodes & Pins {#5}
 Inside the `JSM | SelfCheckout V3` folder, you will find the `Accounts` settings script under `Deploy`. You can manage the access level, operator ID and pins through this script.
 
 `Employee` - able to handle basic interventions, e.g, age approval
@@ -65,10 +65,10 @@ The ID in each account must be **unique**. To setup the actual operator barcode,
 
 ![barcodeConfiguring](img/operatorBarcode.png)
 
-### [6] Pick & Mix {#6}
+### 6) Pick & Mix {#6}
 We offer several types of different checkouts. Some checkouts differ, such as the scanner or the ability to accept cash. You can choose and delete anything that you're not interested in.
 
-1. To duplicate (have more) of a certain self-checkout, click the checkout and hit `CTRL + D`
+1. To duplicate (create more) of a certain self-checkout, click the checkout and hit `CTRL + D`
 2. Ensure the new self checkout is in the `Terminals` folder.
 3. For your new checkout, open its path on Explorer and double-click `Settings`.
 4. Set the `LaneNumber` to another unique number that hasn't been used by any other self-checkouts.
@@ -77,7 +77,13 @@ We offer several types of different checkouts. Some checkouts differ, such as th
 
 You can also adjust the `CardOnly` feature to disable cash payments. The `StartMode` feature has 4 different labelled options, used to control the boot process when the game starts.
 
-### [7] Adding Items {#7}
+:::caution
+
+If you fail to set the `LaneNumber` to something unique, your checkout won't boot. 
+
+:::
+
+### 7) Adding Items {#7}
 The **poppadom** is an example item. You can use the example item to copy and paste the configuration to add items, or use the instructions given below. It is important to note that once a product has been scanned & bought, the customer won't be able to rescan that specific item.
 
 1. Create a bindable function named `SCOItem`, this must be under the tool and **not** in `Handle`
