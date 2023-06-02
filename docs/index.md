@@ -6,7 +6,7 @@ We're still working on this documentation, some content may be missing or incomp
 
 :::
 
-::: info
+:::info
 
 We welcome you to contribute to our documentation. Please visit our [repository](https://www.github.com/JSMGroup/docs) for more information.
 
