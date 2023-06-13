@@ -10,10 +10,6 @@ Welcome to Whitehill! We are a leading provider of Roblox access control technol
 
 :::note
 
-We're still working on this documentation, some content may be missing or incomplete and all content is subject to change. Please bare with us.
-
-:::
-
-The hard working Whitehill support team.
+We're still working on this documentation, some content may be missing or incomplete and all content is subject to change.
 
 :::
