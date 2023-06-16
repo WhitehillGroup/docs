@@ -6,7 +6,7 @@ sidebar_label: Introduction
 
 # Intro
 
-Welcome to Whitehill! We are a leading provider of Roblox access control technologies.
+Welcome to Whitehill! We are a leading provider of Roblox enterprise technologies.
 
 :::note
 
