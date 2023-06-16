@@ -25,6 +25,8 @@ We do not often hire new staff members as we may be able to handle the load of t
 We may provide a few example products, however we do not provide any items to be used on our systems. You can create an endless number of items, customising them to your own imagination. You could also find some off the toolbox if you're lazy - just watch out for any malicious scripts.
 
 ### How do I add more tools? {#add-tools}
+These instructions are for our mainbank tills. For SCO v3, use [this guide](./sco-v3/installation#7).
+
 To add a tool, you need to go onto the `MasterConfig` & generate an EAN number, this can be a randomised number. Make it a billion characters, or whatever you want; it doesn't matter as long as it is unique. Once you have created the unique number, make sure you've filled in the details with the new tool using the `MasterConfig`.
 
 Create a `StringValue` in the tool's handle, name the `StringValue` EAN, and place your unique number into its value.
@@ -33,11 +35,15 @@ Create a `StringValue` in the tool's handle, name the `StringValue` EAN, and pla
 If you're using the F3X plugin in studio, it tends to have a habit of breaking the welds - so please don't use them when working with our products. If you're using the usual method on studio of rotating, ensure you have selected everything inside the group of the product so the welds aren't automatically deleted.
 
 ### Some of my POS tills are linked together, how do I fix? {#linked-together}
+This only applies for our mainbank tills.
+
 One common mistake is that people forget to change the unique till number. You need to do this by clicking on an individual POS, then click onto the JSM | POS Terminal model, then the Screen block, then Settings. You can also change if you want the till to be on, off, or boot upon server start.
 
 If you don't do this, scanning an item might link to another till, or logging in, etc.
 
 ### I can't click login, it won't do anything. {#cannot-click-login}
+This only applies for our mainbank tills.
+
 Same as above, there's only a player whitelist integrated, so you'll have to disable the whitelist as a whole if it's for a group. Do not ungroup.
 
 ### I scanned an operator barcode, and it says "unexpected item", why is this? {#unexpected-operator-barcode}
