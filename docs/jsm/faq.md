@@ -10,7 +10,7 @@ We see a lot of questions asked that can be answered just by reading our documen
 Please visit [this](./index.md#getting-started) page for more information.
 
 ### I can't seem to download my products, why is this? {#cannot-download}
-We don't know why, but some browsers refuse to download files from Discord. You can always try another browser to get around the issue, such as Chrome or Opera. This issue has been commonly reported on Microsoft Edge.
+We don't know why, but some browsers refuse to download files from Discord. You can always try another browser to get around the issue, such as Chrome or Firefox. This issue has been commonly reported on Microsoft Edge.
 
 ### How can I buy a product with real-life currency? {#real-currency}
 Please create a ticket for instructions on paying. Remember - you will need to convert the money to the appropriate currency which is usually done automatically. We do not actively provide non-manual purchases, however this is a feature planned for future releases of [Axon](https://axon.whitehill.club).
