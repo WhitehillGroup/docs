@@ -50,10 +50,9 @@ Same as above, there's only a player whitelist integrated, so you'll have to dis
 > You cannot directly give yourself the tool via an admin system as the barcode isn't configured with the correct values.
 
 * Ensure the operator barcode has been placed in the `ServerStorage` without being renamed.
-* Use the self-checkout to print the barcode via `Assistance` > `Colleague ID` > `Enter Details` > `System Functions` > `Print Operator Scan Barcode`.
 
 > Alternatively, you can make the operator barcode already configured in `ServerStorage` rather wasting time printing the barcode. This will let you give the barcode to yourself or to staff automatically.
 
 * Enter Roblox Studio, find the operator barcode & click on it, opening the handle.
 * Modify child `OperatorID` to your Colleague ID you'd like to use for logging in to the machine.
-* Modify child `SecurityKey` to the passcode of that Colleague ID, remember, Colleague Identification is basically the same as typing in the pin on the machine manually like you'd do for roleplay & during the process of printing the barcode.
+* Modify child `SecurityKey` to the passcode of that Colleague ID, remember, Colleague Identification is basically the same as typing in the pin on the machine manually like you'd do for roleplay.
