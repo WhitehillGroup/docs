@@ -31,7 +31,7 @@ First we will go over the "settings" script located under the main file structur
 ![settingsfile](img/apmainsettings.png)
 This is the "main settings" script
 
-The settings script is pretty self explanitory but here is a table of what everything does
+The settings script is pretty self explanatory but here is a table of what everything does
 ![table](img/aptable.png)
 
 A lot of this script is out of the scope of this tutorial, we will only cover the basics of this file here.
