@@ -4,7 +4,7 @@ sidebar_label: FAQ
 ---
 
 # Introduction
-We see a lot of questions asked that can be answered just by reading our documentation. Our community has gathered a list of our most frequently asked questions and compiled them into a list.
+We see a lot of questions asked that can be answered just by reading our documentation. Our community has gathered our most frequently asked questions and compiled them into a list.
 
 ### How can I get my products? {#claim-products}
 Please visit [this](./index.md#getting-started) page for more information.
