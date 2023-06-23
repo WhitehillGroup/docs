@@ -76,7 +76,6 @@ const config = {
             position: 'left',
             label: 'Whitehill Documentation',
           },
-          {to: 'blog', label: 'Announcements', position: 'left'},
           {
             href: 'https://axon.whitehill.club',
             label: 'Axon',
