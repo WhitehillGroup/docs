@@ -16,7 +16,7 @@ We have implemented a more streamlined solution by utilizing downloads from [Axo
 Please use our dashboard on [Axon](https://axon.whitehill.club).
 
 ### Do you provide product transfers? {#product-transfers}
-We have introduced an advanced feature for product transfers through our  [Eportal](https://www.roblox.com/games/13188104119/Whitehill-ePortal). With this convenient system, you have the flexibility to effortlessly grant or revoke transferred licenses at your convenience.
+We have introduced an advanced feature for product transfers through our [ePortal](https://www.roblox.com/games/13188104119/Whitehill-ePortal). With this system, you have the ability to grant or revoke transferred licenses.
 
 ### How can I become part of the support team? {#support-team}
 We do not often hire new staff members as we may be able to handle the load of tickets or have a decent amount of people in our team. Please keep your eye out for applications that may be posted, but we hand select our members most of the time anyways. You can get noticed by providing support & team-like qualities in our channels such as [`#⁠community-support`](https://discord.com/channels/502791128613912577/1027266896552276010).
