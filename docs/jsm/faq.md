@@ -10,13 +10,13 @@ We see a lot of questions asked that can be answered just by reading our documen
 Please visit [this](./index.md#getting-started) page for more information.
 
 ### I can't seem to download my products, why is this? {#cannot-download}
-We don't know why, but some browsers refuse to download files from Discord. You can always try another browser to get around the issue, such as Chrome or Firefox. This issue has been commonly reported on Microsoft Edge.
+We have implemented a more streamlined solution by utilizing downloads from [Axon]((https://axon.whitehill.club), effectively addressing the issue. As a result, occurrences of this problem should significantly decrease and become less common.
 
 ### How can I buy a product with real-life currency? {#real-currency}
 Please use our dashboard on [Axon](https://axon.whitehill.club).
 
 ### Do you provide product transfers? {#product-transfers}
-We provide transfers on a case by case basis, you must have sufficient reasoning for why your license needs transferred. We do not actively provide non-manual transfers, however this is a feature planned for future releases of [Axon](https://axon.whitehill.club). Additionally, **we are unable to transfer licenses that are bought via a gamepass**, we do not provide refunds nor do we take responsibility if your account has been banned or hacked, please contact [Roblox](https://www.roblox.com/support) to regain access to your account or to transfer your items.
+We have introduced an advanced feature for product transfers through our  [Eportal](https://www.roblox.com/games/13188104119/Whitehill-ePortal). With this convenient system, you have the flexibility to effortlessly grant or revoke transferred licenses at your convenience.
 
 ### How can I become part of the support team? {#support-team}
 We do not often hire new staff members as we may be able to handle the load of tickets or have a decent amount of people in our team. Please keep your eye out for applications that may be posted, but we hand select our members most of the time anyways. You can get noticed by providing support & team-like qualities in our channels such as [`#⁠community-support`](https://discord.com/channels/502791128613912577/1027266896552276010).
