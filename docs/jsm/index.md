@@ -5,7 +5,7 @@ sidebar_label: Introduction
 ---
 
 # Introduction
-Welcome to JSM! We are a leading provider of Roblox retail technologies, providing a variety of different products to fit your group needs.
+Welcome to JSM! We are the leading provider of Roblox retail technologies, providing a variety of different products to fit your group needs.
 
 :::note
 
