@@ -7,7 +7,7 @@ const FeatureList = [
     title: 'High quality assets',
     description: (
       <>
-        We are a leading provider of Roblox technology for access control and retail technologies. Our solutions help businesses to improve security, efficiency, and customer experience.
+        We are a leading provider of Roblox technology including building systems, access control and retail technologies. Our solutions help businesses to improve security, efficiency, and customer experience.
       </>
     ),
   },
@@ -23,7 +23,7 @@ const FeatureList = [
     title: 'Easy to use',
     description: (
       <>
-        Simply download, position and configure your products to start using them. We provide detailed documentation and support to help you get started and well as use them to their full potential.
+        Simply download, position and configure your products to start using them. We provide detailed documentation and support to help you get started and use our products to their full potential.
       </>
     ),
   }
