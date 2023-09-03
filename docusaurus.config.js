@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'jsmgroup', // Usually your GitHub org/user name.
+  organizationName: 'whitehillgroup', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   trailingSlash: false,
@@ -66,15 +66,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'jsmSidebar',
-            position: 'left',
-            label: 'JSM Documentation',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'whSidebar',
             position: 'left',
             label: 'Whitehill Documentation',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'jsmSidebar',
+            position: 'left',
+            label: 'JSM Documentation',
           },
           {
             href: 'https://axon.whitehill.club',
@@ -123,7 +123,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/jsmgroup',
+                href: 'https://github.com/whitehillgroup',
               },
             ],
           },
