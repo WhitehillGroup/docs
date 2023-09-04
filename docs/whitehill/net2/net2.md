@@ -10,7 +10,7 @@ Download the recent available file for this product via [Axon](https://axon.whit
 In Roblox Studio with your selected game open, click the 'Home' tab, then 'Game Settings'. Move to the 'Security' tab in the open window and make sure the slider for 'Allow HTTP Requests' is enabled and then hit 'Save'.
 
 ### 2) Product Insertion {#2}
-Insert your file by 'dragging' the product file into Roblox studio with your game fully loaded. Use `CTRL + U` to ungroup the model.
+Insert your file by 'dragging' the product file into Roblox Studio with your game fully loaded. Use `CTRL + U` to ungroup the model.
 
 ### 3) Product Installation {#3}
 Use the built in Roblox movement tools to position the inserted doors and readers.
