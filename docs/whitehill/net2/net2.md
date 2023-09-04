@@ -13,7 +13,7 @@ In Roblox Studio with your selected game open, click the 'Home' tab, then 'Game 
 Insert your file by 'dragging' the product file into Roblox studio with your game fully loaded. Use `CTRL + U` to ungroup the model.
 
 ### 3) Product Installation {#3}
-Use the built in roblox movement tools to position the inserted doors and readers.
+Use the built in Roblox movement tools to position the inserted doors and readers.
 You can change the Readers and Buttons used on each door by placing the readers and buttons you wish to use in the applicable folders via the roblox explorer, But remember to delete any unneeded ones! 
 
 :::caution
