@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Whitehill Group',
-  tagline: 'High quality Roblox assets at affordable prices',
+  tagline: 'High quality Roblox assets at affordable prices.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -62,7 +62,7 @@ const config = {
       },
       // Replace with your project's social card
       navbar: {
-        title: 'Whitehill',
+        title: 'Home',
         items: [
           {
             type: 'docSidebar',
