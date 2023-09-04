@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`Home`}
-      description="Making documentation cool again">
+      description="Documentation on Whitehill Group products.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
