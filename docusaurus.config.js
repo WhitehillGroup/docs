@@ -72,7 +72,7 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'dwSidebar',
+            sidebarId: 'dwpSidebar',
             position: 'left',
             label: 'DWProx Documentation',
           },
