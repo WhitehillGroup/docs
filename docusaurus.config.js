@@ -66,9 +66,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'whSidebar',
+            sidebarId: 'infoSidebar',
             position: 'left',
-            label: 'Whitehill Documentation',
+            label: 'Information',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'dwSidebar',
+            position: 'left',
+            label: 'DWProx Documentation',
           },
           {
             type: 'docSidebar',
@@ -100,8 +106,12 @@ const config = {
               },
 
               {
-                label: 'Whitehill Documentation',
-                to: '/docs/whitehill',
+                label: 'Information',
+                to: '/docs/info',
+              },
+              {
+                label: 'DWProx Documentation',
+                to: '/docs/dwprox',
               },
             ],
           },
