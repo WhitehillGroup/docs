@@ -119,12 +119,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Whitehill Discord',
+                label: 'Whitehill Group Discord',
                 href: 'https://whitehill.club/discord',
-              },
-              {
-                label: 'JSM Discord',
-                href: 'https://discord.gg/jsm',
               }
             ],
           },
