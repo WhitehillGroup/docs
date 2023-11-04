@@ -12,10 +12,10 @@ We welcome you to contribute to our documentation. Please visit our [repository]
 
 :::
 
-Need to get started? Visit our [Welcome Page](google.com)
+Need to get started? Visit our [Welcome Page](https://www.google.co.uk/)
 
 Or 
 
-Visit [DWProx Support](google.com)
+Visit [DWProx Support](https://www.google.co.uk/)
 
-Visit [JSM Support](google.com)
+Visit [JSM Support](https://www.google.co.uk/)
