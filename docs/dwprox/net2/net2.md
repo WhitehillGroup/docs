@@ -25,9 +25,6 @@ There are a number of reasons your doors may not be working correctly. These inc
 
 :::
 
-### 4) Product Configuration {#4}
-Please be aware there are 2 main configuration files, One named 'Settings' allowing for configuration of the door such as modes and speeds, With the 'PaxtonSettings' script allowing for configuration of the access control system. Each device also includes its own configuration file allowing for device-specific configuration. 
-
 :::info
 
 If require more assistance, please make a ticket in our [Discord server](https://whitehill.club/discord) (13+)
