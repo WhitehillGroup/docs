@@ -66,12 +66,6 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'infoSidebar',
-            position: 'left',
-            label: 'Information',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'dwpSidebar',
             position: 'left',
             label: 'DWProx Documentation',
