@@ -1,7 +1,7 @@
 # Introduction
-Welcome to the Whitehill Group support site. 
+Welcome to the Whitehill Group support site.
 
-:::caution
+:::warning
 
 We're still working on this documentation, some content may be missing or incomplete and all content is subject to change.
 
@@ -37,7 +37,7 @@ We do not often hire new staff members as we may be able to handle the load of t
 If you're using the F3X plugin in studio, it tends to have a habit of breaking the welds - so please don't use them when working with our products. If you're using the usual method on studio of rotating, ensure you have selected everything inside the group of the product so the welds aren't automatically deleted.
 
 ### Are there items provided with any of our retail products? {#items-with-products}
-We may provide a few example items, however its up to you to create all the products for your game. Use the example products to see how items are configured and go from there. 
+We may provide a few example items, however its up to you to create all the products for your game. Use the example products to see how items are configured and go from there.
 
 :::note
 Have a question that you think should be added to this list? Contact us via our [Discord Server](https://whitehill.club/discord/)

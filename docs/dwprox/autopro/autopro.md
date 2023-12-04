@@ -1,6 +1,6 @@
 # Installation
 
-:::caution
+:::warning
 
 This documentation will be available upon the release of AutoPro v2.
 

@@ -14,11 +14,11 @@ Insert your file by 'dragging' the product file into Roblox Studio with your gam
 
 ### 3) Product Installation {#3}
 Use the built in Roblox movement tools to position the inserted doors and readers.
-You can change the Readers and Buttons used on each door by placing the readers and buttons you wish to use in the applicable folders via the roblox explorer, But remember to delete any unneeded ones! 
+You can change the Readers and Buttons used on each door by placing the readers and buttons you wish to use in the applicable folders via the roblox explorer, But remember to delete any unneeded ones!
 
 To use the K50 Keypad & Card reader with DWProx Net2+ you are required to download it from axon using the dropdown on the Net2+ product card. You will then need to move it into the "Readers" folder.
 
-:::caution
+:::warning
 
 There are a number of reasons your doors may not be working correctly. These include:
 - The doors colliding with parts (These may be invisible or unions with incorrect collisions)
@@ -28,7 +28,7 @@ There are a number of reasons your doors may not be working correctly. These inc
 :::
 
 ### 4) Product Configuration {#4}
-Please be aware there are 2 main configuration files, One named 'Settings' allowing for configuration of the door such as modes and speeds, With the 'PaxtonSettings' script allowing for configuration of the access control system. Each device also includes its own configuration file allowing for device-specific configuration. 
+Please be aware there are 2 main configuration files, One named 'Settings' allowing for configuration of the door such as modes and speeds, With the 'PaxtonSettings' script allowing for configuration of the access control system. Each device also includes its own configuration file allowing for device-specific configuration.
 
 :::info
 

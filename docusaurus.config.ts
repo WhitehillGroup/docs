@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+import prismLight from './src/util/prismLight';
+import prismDark from './src/util/prismDark';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -93,10 +93,6 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Information",
-                to: "/",
-              },
-              {
                 label: "JSM Documentation",
                 to: "/jsm",
               },
@@ -128,10 +124,10 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Whitehill Group.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismLight,
+        darkTheme: prismDark,
       },
     }),
 };
 
-module.exports = config;
+export default config;
