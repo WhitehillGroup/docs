@@ -1,52 +1,50 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Whitehill Group',
-  tagline: 'High quality Roblox assets at affordable prices.',
-  favicon: 'img/favicon.ico',
+  title: "Whitehill Group",
+  tagline: "High quality Roblox assets at affordable prices.",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://support.whitehill.club',
+  url: "https://support.whitehill.club",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'whitehillgroup', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: "whitehillgroup", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
 
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: "/",
+          sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
           showReadingTime: true,
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -56,74 +54,73 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: "dark",
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
       // Replace with your project's social card
       navbar: {
-        title: 'Home',
+        title: "Home",
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'dwpSidebar',
-            position: 'left',
-            label: 'DWProx Documentation',
+            type: "docSidebar",
+            sidebarId: "dwpSidebar",
+            position: "left",
+            label: "DWProx Documentation",
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'jsmSidebar',
-            position: 'left',
-            label: 'JSM Documentation',
+            type: "docSidebar",
+            sidebarId: "jsmSidebar",
+            position: "left",
+            label: "JSM Documentation",
           },
           {
-            href: 'https://axon.whitehill.club',
-            label: 'Axon',
-            position: 'right',
+            href: "https://axon.whitehill.club",
+            label: "Axon",
+            position: "right",
           },
           {
-            href: 'https://status.whitehill.club',
-            label: 'Service Status',
-            position: 'right',
+            href: "https://status.whitehill.club",
+            label: "Service Status",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'JSM Documentation',
-                to: '/docs/jsm',
-              },
-
-              {
-                label: 'Information',
-                to: '/docs/info',
+                label: "Information",
+                to: "/",
               },
               {
-                label: 'DWProx Documentation',
-                to: '/docs/dwprox',
+                label: "JSM Documentation",
+                to: "/jsm",
+              },
+              {
+                label: "DWProx Documentation",
+                to: "/dwprox",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Whitehill Group Discord',
-                href: 'https://whitehill.club/discord',
-              }
+                label: "Whitehill Group Discord",
+                href: "https://whitehill.club/discord",
+              },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/whitehillgroup',
+                label: "GitHub",
+                href: "https://github.com/whitehillgroup",
               },
             ],
           },

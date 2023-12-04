@@ -33,4 +33,4 @@ To continue using your gamepass licences, you must head over to the [Product Hub
 
 **What's next?**
 - We're looking to phase out product distribution on Discord, so you'll see less people with the product roles, and people will be advised to download their products from the [Axon website](https://axon.whitehill.club) instead.
-- Users with <13 Roblox accounts are currently unable to sign into Axon. We're looking into alternative sign in methods for these users only.
+- Users with \<13 Roblox accounts are currently unable to sign into Axon. We're looking into alternative sign in methods for these users only.
