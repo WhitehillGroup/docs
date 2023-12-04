@@ -8,7 +8,7 @@ sidebar_label: FAQ
 We see a lot of questions asked that can be answered just by reading our documentation. Our community has gathered our most frequently asked questions and compiled them into a list.
 
 ### How can I get my products? {#claim-products}
-We have implimented a more streamlined process for purchasing and downloading our products. Please visit [Axon]((https://axon.whitehill.club) to get started.
+We have implimented a more streamlined process for purchasing and downloading our products. Please visit [Axon](https://axon.whitehill.club) to get started.
 
 ### How can I buy a product with real-life currency? {#real-currency}
 Please use our dashboard on [Axon](https://axon.whitehill.club).
