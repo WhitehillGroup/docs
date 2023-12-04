@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjsm_docs=self.webpackChunkjsm_docs||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Axon\'s release!","permalink":"/blog/axon-release","unlisted":false}]}')}}]);
