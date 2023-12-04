@@ -24,7 +24,7 @@ Please use our dashboard on [Axon](https://axon.whitehill.club).
 ### Do you provide product transfers? {#product-transfers}
 We have introduced product transfers through our [ePortal](https://www.roblox.com/games/13188104119/Whitehill-ePortal). With this system, you have the ability to grant or revoke transferred licenses.
 
-::info
+:::info
 
 Please be aware that AutoPro, along with KONE Turnstiles, do NOT use the new Axon licensing system. As such, Licence transfers are not possible with these products.
 
