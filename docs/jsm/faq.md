@@ -6,23 +6,8 @@ sidebar_label: FAQ
 # Introduction
 We see a lot of questions asked that can be answered just by reading our documentation. Our community has gathered our most frequently asked questions and compiled them into a list.
 
-### How can I get my products? {#claim-products}
-Please visit [this](./index.md#getting-started) page for more information.
-
-### I can't seem to download my products, why is this? {#cannot-download}
-We have implemented a more streamlined solution by utilizing downloads from [Axon]((https://axon.whitehill.club), effectively addressing the issue. As a result, occurrences of this problem should significantly decrease and become less common.
-
-### How can I buy a product with real-life currency? {#real-currency}
-Please use our dashboard on [Axon](https://axon.whitehill.club).
-
-### Do you provide product transfers? {#product-transfers}
-We have introduced an advanced feature for product transfers through our [ePortal](https://www.roblox.com/games/13188104119/Whitehill-ePortal). With this system, you have the ability to grant or revoke transferred licenses.
-
-### How can I become part of the support team? {#support-team}
-We do not often hire new staff members as we may be able to handle the load of tickets or have a decent amount of people in our team. Please keep your eye out for applications that may be posted, but we hand select our members most of the time anyways. You can get noticed by providing support & team-like qualities in our channels such as [`#⁠community-support`](https://discord.com/channels/502791128613912577/1027266896552276010).
-
-### Are there items provided with any of our products? {#items-with-products}
-We may provide a few example products, however we do not provide any items to be used on our systems. You can create an endless number of items, customising them to your own imagination. You could also find some off the toolbox if you're lazy - just watch out for any malicious scripts.
+:::info
+This FAQ is only for JSM products. Please visit our main [information & FAQ](https://support.whitehill.club/docs) for more generalised queries.
 
 ### How do I add more tools? {#add-tools}
 These instructions are for our mainbank tills. For SCO v3, use [this guide](./sco-v3/installation#7).
