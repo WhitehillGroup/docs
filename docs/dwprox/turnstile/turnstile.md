@@ -1,6 +1,6 @@
 :::info
 
-This product does not use Axon licensing, find the model [here](https://create.roblox.com/marketplace/asset/6821432149/), and the license [here](https://www.roblox.com/game-pass/12447387).
+This product does **not** use Axon licensing and therefor cannot be downloaded on the Axon website. Find the model [here](https://create.roblox.com/marketplace/asset/6821432149/), and the license [here](https://www.roblox.com/game-pass/12447387).
 
 :::
 
