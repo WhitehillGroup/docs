@@ -32,6 +32,6 @@ Please be aware there are 2 main configuration files, One named 'Settings' allow
 
 :::info
 
-If require more assistance, please make a ticket in our [Discord server](https://whitehill.club/discord) (13+)
+If you require more assistance, please make a ticket in our [Discord server](https://whitehill.club/discord) (13+)
 
 :::

@@ -32,12 +32,8 @@ This only applies for our mainbank tills.
 Same as above, there's only a player whitelist integrated, so you'll have to disable the whitelist as a whole if it's for a group. Do not ungroup.
 
 ### I scanned an operator barcode, and it says "unexpected item", why is this? {#unexpected-operator-barcode}
-> You cannot directly give yourself the tool via an admin system as the barcode isn't configured with the correct values.
+> You've either incorrectly setup your operator barcodes, or you haven't configured them for v3.1 when migrating. Follow the steps below.
 
-* Ensure the operator barcode has been placed in the `ServerStorage` without being renamed.
-
-> Alternatively, you can make the operator barcode already configured in `ServerStorage` rather wasting time printing the barcode. This will let you give the barcode to yourself or to staff automatically.
-
-* Enter Roblox Studio, find the operator barcode & click on it, opening the handle.
-* Modify child `OperatorID` to your Colleague ID you'd like to use for logging in to the machine.
-* Modify child `SecurityKey` to the passcode of that Colleague ID, remember, Colleague Identification is basically the same as typing in the pin on the machine manually like you'd do for roleplay.
+* Enter Roblox Studio, find the old operator barcode and delete the SCO-AUTH function inside the handle.
+* Copy the JSM | Operator Barcode function from the new barcodes into your old ones, or simply use the new barcodes.
+* Modify atrribute AccountID to an existing account id.

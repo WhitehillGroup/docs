@@ -1,3 +1,5 @@
+# Installation
+
 :::info
 
 This product does **not** use Axon licensing and therefor cannot be downloaded on the Axon website. Find the model [here](https://create.roblox.com/marketplace/asset/6821432149/), and the license [here](https://www.roblox.com/game-pass/12447387).
@@ -11,7 +13,7 @@ In Roblox Studio with your selected game open, click the 'Home' tab, then 'Game 
 Insert your product by navigating to `Home > Toolbox` at the top of your studio tab, then click the `Inventory` button in the toolbox, and scroll down to find the model. Once you find the model, click on it and it will appear in your workspace. Once the model appears in your workspace, use `CTRL+U` to ungroup it.
 
 ### 3) Product Installation {#3}
-Use the built in Roblox movement tools to position the inserted turnstiles and control screens, make sure you dont seperate the turnstile model itself.
+Use the built in Roblox movement tools to position the inserted turnstiles and control screens, make sure you don't seperate the turnstile model itself.
 
 ### 4) Product Configuration {#4}
 Please be aware there are 2 main configuration files, One named 'Settings' allowing for configuration of the turnstile such as starting modes, colors, elevator setup, with the 'ControllerCode' under the `TurnstileController` being the configuration for the password/pin to control the turnstile via the ingame screen.
