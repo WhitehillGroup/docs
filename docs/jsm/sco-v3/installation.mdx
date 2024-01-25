@@ -9,13 +9,13 @@ import TabItem from '@theme/TabItem';
 
 :::info
 
-Download the recent available file for this product via [Axon](https://axon.whitehill.club). If you were using SCO v2 before SCO v3, it is important to note that the setup process has changed massively.
+Download the recent available file for this product via [Axon](https://axon.whitehill.club). If you were using SCO v2 before SCO v3, it is important to note that the setup process has changed massively. If you're updating to SCO v3.1, you will need to reconfigure your items and operator barcodes.
 
 :::
 
 :::note
 
-This product comes with the **JSM SelfServ**, an ATM which can also work with the self-checkouts. You must own this side-product for the ATM to work, as it is not part of your SCO v3 purchase. It is available on our [ePortal](https://www.roblox.com/games/13188104119).
+The base file only includes the JSM SelfServ 7350. All other models and accessories are available on Axon, in the dropdown next to the Download button.
 
 :::
 
@@ -25,12 +25,10 @@ In Roblox Studio with your selected game open, click the 'Home' tab, then 'Game 
 <iframe width="705.61" height="397.5" src="https://www.youtube.com/embed/qtKN_3Moi7M" title="Enabling HTTP Requests" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
 
 ### 2) Product Insertion {#2}
-Insert your file by 'dragging' the product file into Roblox studio with your game fully loaded. Use `CTRL + U` to ungroup the model. You can delete anything relevant to the ATM if you do not own it.
+Insert your file by 'dragging' the product file into Roblox studio with your game fully loaded. The model is already ungrouped upon inserting so there is no need to ungroup.
 
-### 3) Folder Movement {#3}
-Move `JSM | ATM Tools`, `JSM | UI Template`, `Receipt`, `Debit Card` into **ServerStorage**.
-
-<iframe width="705.61" height="397.5" src="https://www.youtube.com/embed/T89UUPe9CeY" title="Tutorial | Folder Movement" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
+### 3) Folder and File Movement {#3}
+You no longer need to move folders or files into ServerStorage, as the tills now automatically load everything in.
 
 ### 4) Whole System Configuration {#4}
 Inside the `JSM | SelfCheckout V3` folder, you will find the `SystemConfig` script. Double-click it to be shown the different options that can be customised. This step will contain some features to elaborate, although the rest is annotated or self-explanatory.
@@ -65,15 +63,15 @@ Inside the `JSM | SelfCheckout V3` folder, you will find the `Accounts` settings
 `Manager` - ability to close & open checkouts
 `Administrator` - ability to access the system functions section
 
-The ID in each account must be **unique**. To setup the actual operator barcode, click the tool, open the handle and click `SCO-AUTH`. You can then update the information underneath attributes, including the `OperatorID` and `SecurityKey`.
+The ID in each account must be **unique**. To setup the actual operator barcode, click and open the tool. You'll find a function called "JSM | Operator Barcode". Within this function there is one attribute, "AccountID". Set this to the account id you previously made in the Accounts script.
 
 ![barcodeConfiguring](img/operatorBarcode.png)
 
 ### 6) Pick & Mix {#6}
-We offer several types of different checkouts. Some checkouts differ, such as the scanner or the ability to accept cash. You can choose and delete anything that you're not interested in.
+We offer several types of different checkouts. Some checkouts differ, such as the scanner or the ability to accept cash. Different models of checkouts, such as SelfServ 90 need to be downloaded from Axon. You can find them in the dropdown next to the Download button.
 
 1. To duplicate (create more) of a certain self-checkout, click the checkout and hit `CTRL + D`
-2. Ensure the new self checkout is in the `Terminals` folder.
+2. Ensure the new self checkout is in the `Terminals` folder. This is also important if you're inserting new models.
 3. For your new checkout, open its path on Explorer and double-click `Settings`.
 4. Set the `LaneNumber` to another unique number that hasn't been used by any other self-checkouts.
 
@@ -88,9 +86,12 @@ If you fail to set the `LaneNumber` to something unique, your checkout won't boo
 :::
 
 ### 7) Adding Items {#7}
-The **poppadom** is an example item. You can use the example item to copy and paste the configuration to add items, or use the instructions given below. It is important to note that once a product has been scanned & bought, the customer won't be able to rescan that specific item.
+The **Calgon** is an example item. You can use the example item to copy and paste the configuration to add items, or use the instructions given below. It is important to note that once a product has been scanned & bought, the customer won't be able to rescan that specific item.
 
-1. Create a bindable function named `SCOItem`, this must be under the tool and **not** in `Handle`
-2. In the bindable function, add a **BoolValue** named `AgeRestricted`. Set this to true to enable age/check 25 verification.
-3. In the bindable function, add a **NumberValue** named `Cost`. Change the value to the cost of your product.
-4. Inside the `Handle`, add a **BoolValue** named `EAS_Active` and set it to true. This is for customers who own the anti-theft gates.
+1. Copy the bindable function from the example item into your item.
+2. In properties, you'll see 5 attributes. The `AgeRestricted` attribute determines if a product is age restricted. The `Cost` attribute should be set to the price of your product.
+EASActive activates your JSM EAS if a product has not been paid for. This is only for customers who own the JSM EAS/anti-theft gates. ItemImage should be set to the asset id of the image you want to set for your item. LoyaltyCost is the price of the item when a Loyalty Card has been scanned.
+
+:::note
+
+JSM EAS is currently incompatible with JSM Self Checkout v3.1. This means that the EASActive attribute will not work.
