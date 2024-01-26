@@ -32,8 +32,15 @@ This only applies for our mainbank tills.
 Same as above, there's only a player whitelist integrated, so you'll have to disable the whitelist as a whole if it's for a group. Do not ungroup.
 
 ### I scanned an operator barcode, and it says "unexpected item", why is this? {#unexpected-operator-barcode}
-> You've either incorrectly setup your operator barcodes, or you haven't configured them for v3.1 when migrating. Follow the steps below.
+You've either incorrectly setup your operator barcodes, or you haven't configured them for v3.1 when migrating. Follow the steps below.
 
 * Enter Roblox Studio, find the old operator barcode and delete the SCO-AUTH function inside the handle.
 * Copy the JSM | Operator Barcode function from the new barcodes into your old ones, or simply use the new barcodes.
 * Modify atrribute AccountID to an existing account id.
+
+### Why am I getting a screen that says "You Wouldn't Steal a Whitehill Product?" {#dwpss}  
+You have triggered DWPSS, our system that detects and blocks individuals attempting to bypass the licensing checks.  
+False positives do happen, and if there's an issue with the system, it will be announced via our [Discord server](https://whitehill.club/discord/).  
+:::note 
+Before opening a ticket about the system, please read the announcement channels in our server. This goes with anything else, but this especially. 
+:::
