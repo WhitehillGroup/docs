@@ -12,7 +12,7 @@ Download the recent available file for this product via [Axon](https://axon.whit
 
 :::warning
 
-SCO v3 automatically disables the `EAS_Active` value after a product has been bought. At this moment of time, the **mainbanks** do not support this feature. This means you will need to place the deactivation fields on scanners for the time being.
+SCO v3 includes a feature that disables the EAS on a product once it has been purchased. This feature is currently **incompatible** with JSM EAS.
 
 :::
 
@@ -31,6 +31,12 @@ The monitoring station is used to keep track of activation events. It also comes
 4. Match the `OperatorID` and `OperatorSecurityKey` you picked to the 'Operator Barcode' in explorer by clicking `SCO-AUTH`.
 
 ![exampleOperatorBarcode](img/operatorBarcode.png)
+
+:::warning
+
+The operator barcodes that are included with JSM SCO v3.1 are **not compatible** with the latest version of JSM EAS. You will have to use the old barcodes.
+
+:::
 
 ### 4) Gate Configuration {#4}
 If you're planning to use more than one set of anti-theft gates for your store, you will need to setup 'zones'. This needs to be done for the gate & sensor.
