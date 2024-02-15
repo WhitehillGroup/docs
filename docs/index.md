@@ -42,6 +42,11 @@ If you have too many products using HTTPService at once, it can overload and won
 ### Are there items provided with any of our retail products? {#items-with-products}
 We may provide a few example items, however its up to you to create all the products for your game. Use the example products to see how items are configured and go from there.
 
+### Why am i getting kicked with the message "DWPSS Has detected you are using counterfiet products"? {#dwpss-error}
+There are 2 reasons this may be happening these are:
+- You have triggered the anti tamper system that is in place to protect the licencing of our products, if so shame on you 🤨
+- You are using a version of <b>DWProx Net2+, SCO v3 or Scan & Shop</b> that was released prior to 26/01/24. Please visit [this message](https://discord.com/channels/616745092279173151/1169430086500491375/1200237894430892072) in our announcements channel to find out more and resolve the issue. 
+
 :::note
 Have a question that you think should be added to this list? Contact us via our [Discord Server](https://whitehill.club/discord/)
 :::
