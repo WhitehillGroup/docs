@@ -15,5 +15,19 @@ Missing information? This page is currently under construction, try come back la
 This product is **out-dated**. We're currently working on a brand new version to provide you with the excellent features we take pride in.
 
 :::
+### RetailPOS Mainbanks FAQ
+
+### How do I add more tools? {#add-tools}
+To add a tool, you need to go onto the `MasterConfig` & generate an EAN number, this can be a randomised number. Make it a billion characters, or whatever you want; it doesn't matter as long as it is unique. Once you have created the unique number, make sure you've filled in the details with the new tool using the `MasterConfig`.
+
+Create a `StringValue` in the tool's handle, name the `StringValue` EAN, and place your unique number into its value.
+
+### Some of my POS tills are linked together, how do I fix? {#linked-together}
+One common mistake is that people forget to change the unique till number. You need to do this by clicking on an individual POS, then click onto the JSM | POS Terminal model, then the Screen block, then Settings. You can also change if you want the till to be on, off, or boot upon server start.
+
+If you don't do this, scanning an item might link to another till, or logging in, etc.
+
+### I can't click login, it won't do anything. {#cannot-click-login}
+Same as above, there's only a player whitelist integrated, so you'll have to disable the whitelist as a whole if it's for a group. Do not ungroup.
 
 <iframe width="705.61" height="397.5" src="https://www.youtube.com/embed/njmw1dZgn1g" title="JSM Retail POS | Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
