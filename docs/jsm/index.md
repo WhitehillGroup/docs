@@ -24,6 +24,6 @@ You'll need to be able to access [Axon](https://axon.whitehill.club) to download
 Get started by purchasing a JSM licence from [Axon](https://axon.whitehill.club), Available with Robux or direct payments powered by [Stripe](https://stripe.com/gb). Once done, you can move onto downloading your desired product from [Axon](https://axon.whitehill.club).
 
 ## Frequently Asked Questions
-We see a lot of questions asked that can be answered just by reading our documentation. Our community has gathered a list of our most frequently asked questions and compiled them into a list, you can visit it [here](./faq.md).
+We see a lot of questions asked that can be answered just by reading our documentation. Our community has gathered a list of our most frequently asked questions and compiled them into a list, you can visit it [here](https://support.whitehill.club/) or more product specific questions are located within the actual product pages.
 
-If you've followed this documentation and you're still experiencing issues please open a ticket in our [Discord server.](https://whitehill.club/discord/) Please check the [FAQ](./faq.md) before opening a ticket as the issue you're experiencing may be documented there.
+If you've followed this documentation and you're still experiencing issues please open a ticket in our [Discord server.](https://whitehill.club/discord/).
