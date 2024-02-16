@@ -36,16 +36,16 @@ We do not often hire new staff members as we may be able to handle the load of t
 ### Why are my products becoming unanchored once rotated in-game? {#unanchored-products}
 If you're using the F3X plugin in studio, it tends to have a habit of breaking the welds - so please don't use them when working with our products. If you're using the usual method on studio of rotating, ensure you have selected everything inside the group of the product so the welds aren't automatically deleted.
 
-### Why does my product say I don't have HTTPS on when I do? {#http-overload}
+### Why does my product say I don't have HTTP on when I do? {#http-overload}
 If you have too many products using HTTPService at once, it can overload and won't send requests on the game server. You will find that on studio your products will work, this is because thsoe requests are made locally and not on a game server. This can be fixed by removing some products/scripts in your game that may use HTTP.
 
 ### Are there items provided with any of our retail products? {#items-with-products}
 We may provide a few example items, however its up to you to create all the products for your game. Use the example products to see how items are configured and go from there.
 
-### Why am i getting kicked with the message "DWPSS Has detected you are using counterfiet products"? {#dwpss-error}
-There are 2 reasons this may be happening these are:
-- You have triggered the anti tamper system that is in place to protect the licencing of our products, if so shame on you 🤨
-- You are using a version of <b>DWProx Net2+, SCO v3 or Scan & Shop</b> that was released prior to 26/01/24. Please visit [this message](https://discord.com/channels/616745092279173151/1169430086500491375/1200237894430892072) in our announcements channel to find out more and resolve the issue. 
+### Why am I getting kicked with the message "DWPSS has detected you are using counterfeit products"? {#dwpss-error}
+There are 2 reasons this may be happening:
+- You are using a version of <b>DWProx Net2+, SCO v3 or Scan & Shop</b> that was released prior to 26/01/24. You should update your Net2, SCO v3 and Scan & Shop with the latest versions from [Axon](https://axon.whitehill.club) to resolve the issue. Please see [this message](https://discord.com/channels/616745092279173151/1169430086500491375/1200237894430892072) in our [Discord server](https://whitehill.club/discord) for more detailed update instructions.
+- You have tampered with your product - if you have done this and triggered DWPSS, please open a support ticket.
 
 
 :::note
