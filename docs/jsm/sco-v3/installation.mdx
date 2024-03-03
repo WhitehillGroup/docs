@@ -92,6 +92,16 @@ The **Calgon** is an example item. You can use the example item to copy and past
 2. In properties, you'll see 5 attributes. The `AgeRestricted` attribute determines if a product is age restricted. The `Cost` attribute should be set to the price of your product.
 EASActive activates your JSM EAS if a product has not been paid for. This is only for customers who own the JSM EAS/anti-theft gates. ItemImage should be set to the asset id of the image you want to set for your item. LoyaltyCost is the price of the item when a Loyalty Card has been scanned.
 
+:::info
+The name of the Bindable Function is `JSM | Item Data`, it should have 5 attributes:
+
+1. AgeRestricted (Boolean)
+2. Cost (Number)
+3. EasACTIVE (Boolean)
+4. ItemImage (String: `rbxassetid://...`)
+5. LoyaltyCost (Number)
+:::
+
 :::note
 
 JSM EAS is currently incompatible with JSM Self Checkout v3.1. This means that the EASActive attribute will not work. We are working on resolving this and thank you for your patience.
