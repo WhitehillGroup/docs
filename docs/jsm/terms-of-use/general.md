@@ -12,7 +12,7 @@ Failure to abide by these terms may result in your licence being revoked or a bl
 
 :::note
 
-JSM SCO v3 is covered by a [separate Terms of Use](https://support.whitehill.club/docs/jsm/terms-of-use/sco-v3)
+JSM SCO v3 is covered by a [separate Terms of Use](https://support.whitehill.club/jsm/terms-of-use/sco-v3)
 
 :::
 
