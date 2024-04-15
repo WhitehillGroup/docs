@@ -8,6 +8,7 @@ This product does **not** use Axon licensing and therefor cannot be downloaded o
 
 ### 1) Enable HTTP Requests {#1}
 In Roblox Studio with your selected game open, click the 'Home' tab, then 'Game Settings'. Move to the 'Security' tab in the open window and make sure the slider for 'Allow HTTP Requests' is enabled and then hit 'Save'.
+<iframe width="705.61" height="397.5" src="https://www.youtube.com/embed/qtKN_3Moi7M" title="Enabling HTTP Requests" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
 
 ### 2) Product Insertion {#2}
 Insert your product by navigating to `Home > Toolbox` at the top of your studio tab, then click the `Inventory` button in the toolbox, and scroll down to find the model. Once you find the model, click on it and it will appear in your workspace. Once the model appears in your workspace, use `CTRL+U` to ungroup it.
