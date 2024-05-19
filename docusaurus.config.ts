@@ -11,7 +11,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://support.whitehill.club",
+  url: "https://support.whitehill.group",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -75,12 +75,12 @@ const config = {
             label: "JSM Documentation",
           },
           {
-            href: "https://axon.whitehill.club",
+            href: "https://axon.whitehill.group",
             label: "Axon",
             position: "right",
           },
           {
-            href: "https://status.whitehill.club",
+            href: "https://status.whitehill.group",
             label: "Service Status",
             position: "right",
           },
