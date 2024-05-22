@@ -21,7 +21,7 @@ By purchasing SCO v3 and utilising the products, you automatically agree to thes
 - You agree not to use any assets provided with SCO v3 for use on any products or models not manufactured by Whitehill Group, even for personal use unless given explicit permission by [@Coco_Beagle](https://discord.com/users/519596116359249925) or [@AlexG_1337](https://discord.com/users/280442052590698496).
 - You agree not to redistribute any assets provided with SCO v3, especially for personal financial gain. The distribution of custom UI themes is permitted, as well as the distribution of any 3rd party products compatible with SCO v3.
 - You agree not to use the JSM logo on any products not manufactured by Whitehill Group.
-- All assets provided with pervious versions of the JSM SCO (v1 & v2) are also covered by these terms.
+- All assets provided with previous versions of the JSM SCO (v1 & v2) are also covered by these terms.
 
 :::note
 
