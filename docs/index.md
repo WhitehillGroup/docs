@@ -16,10 +16,10 @@ We welcome you to contribute to our documentation. Please visit our [repository]
 You can get started by jumping straight into product documentation using the tabs above, but we would recommend reading the following FAQs first.
 
 ### How can I get my products? {#claim-products}
-We have implimented a more streamlined process for purchasing and downloading our products. Please visit [Axon](https://axon.whitehill.club) to get started.
+We have implimented a more streamlined process for purchasing and downloading our products. Please visit [Axon](https://axon.whitehill.group) to get started.
 
 ### How can I buy a product with real-life currency? {#real-currency}
-Please use our dashboard on [Axon](https://axon.whitehill.club).
+Please use our dashboard on [Axon](https://axon.whitehill.group).
 
 ### Do you provide product transfers? {#product-transfers}
 We have introduced product transfers through our [ePortal](https://www.roblox.com/games/13188104119/Whitehill-ePortal). With this system, you have the ability to grant or revoke transferred licenses.
@@ -44,10 +44,10 @@ We may provide a few example items, however its up to you to create all the prod
 
 ### Why am I getting kicked with the message "DWPSS has detected you are using counterfeit products"? {#dwpss-error}
 There are 2 reasons this may be happening:
-- You are using a version of <b>DWProx Net2+, SCO v3 or Scan & Shop</b> that was released prior to 26/01/24. You should update your Net2, SCO v3 and Scan & Shop with the latest versions from [Axon](https://axon.whitehill.club) to resolve the issue. Please see [this message](https://discord.com/channels/616745092279173151/1169430086500491375/1200237894430892072) in our [Discord server](https://whitehill.club/discord) for more detailed update instructions.
+- You are using a version of <b>DWProx Net2+, SCO v3 or Scan & Shop</b> that was released prior to 26/01/24. You should update your Net2, SCO v3 and Scan & Shop with the latest versions from [Axon](https://axon.whitehill.group) to resolve the issue. Please see [this message](https://discord.com/channels/616745092279173151/1169430086500491375/1200237894430892072) in our [Discord server](https://whitehill.group/discord) for more detailed update instructions.
 - You have tampered with your product - if you have done this and triggered DWPSS, please open a support ticket.
 
 
 :::note
-Have a question that you think should be added to this list? Contact us via our [Discord Server](https://whitehill.club/discord/)
+Have a question that you think should be added to this list? Contact us via our [Discord Server](https://whitehill.group/discord/)
 :::

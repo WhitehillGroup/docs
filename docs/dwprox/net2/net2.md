@@ -3,7 +3,7 @@
 
 :::info
 
-Download the recent available file for this product via [Axon](https://axon.whitehill.club).
+Download the recent available file for this product via [Axon](https://axon.whitehill.group).
 
 :::
 ### 1) Enable HTTP Requests {#1}
@@ -35,6 +35,6 @@ Please be aware there are 2 main configuration files, One named 'Settings' allow
 
 :::info
 
-If you require more assistance, please make a ticket in our [Discord server](https://whitehill.club/discord) (13+)
+If you require more assistance, please make a ticket in our [Discord server](https://whitehill.group/discord) (13+)
 
 :::
