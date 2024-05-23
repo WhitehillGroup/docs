@@ -102,6 +102,21 @@ The name of the Bindable Function is `JSM | Item Data`, it should have 5 attribu
 5. LoyaltyCost (Number)
 :::
 
-:::note
+### Getting the EAS_Active value working
+To do this, make a script inside the Handle of your tool and clear everything inside it then replace it with the following:
 
-JSM EAS is currently incompatible with JSM Self Checkout v3.1. This means that the EASActive attribute will not work. We are working on resolving this and thank you for your patience.
+```lua
+local NewData = script.Parent.Parent.Parent["JSM | Item Data"]
+local OldValue = script.Parent:FindFirstChild("EAS_Active") or Instance.new("BoolValue", script.Parent)
+OldValue.Name = "EAS_Active"
+
+
+NewData.AncestryChanged:Connect(function() -- uses AncestryChanged as for some reason attributechanged didnt work, cba figuring it out
+	local EASVal = NewData:GetAttribute("EASActive") -- get eas state from new data instance
+	if EASVal == false then
+		OldValue.Value = false -- disable old eas value 
+		task.wait(0.1)
+		script:Destroy()
+	end
+end)
+```
