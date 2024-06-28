@@ -4,7 +4,7 @@
 We're still working to update this website with the latest content. Some pages may be incomplete or contain filler/template material.
 
 This repository holds the source for the Whitehill Group knowledgebase website.
-Built using [Docusaurus 2](https://docusaurus.io/).
+Built using [Docusaurus 3](https://docusaurus.io/).
 
 ### Contributing?
 If you think our documentation can be improved; feel free to open a pull request! We'll review it, provide feedback and merge the changes if we're happy with it.
