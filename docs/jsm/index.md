@@ -26,4 +26,4 @@ Get started by purchasing a JSM licence from [Axon](https://axon.whitehill.group
 ## Frequently Asked Questions
 We see a lot of questions asked that can be answered just by reading our documentation. Our community has gathered a list of our most frequently asked questions and compiled them into a list, you can visit it [here](https://support.whitehill.group/) or more product specific questions are located within the actual product pages.
 
-If you've followed this documentation and you're still experiencing issues please open a ticket in our [Discord server.](https://whitehill.group/discord/).
+If you've followed this documentation and you're still experiencing issues please open a ticket in our [Discord server.](https://discord.whitehill.group/).

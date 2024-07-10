@@ -107,7 +107,7 @@ const config = {
             items: [
               {
                 label: "Whitehill Group Discord",
-                href: "https://whitehill.club/discord",
+                href: "https://discord.whitehill.group",
               },
             ],
           },
