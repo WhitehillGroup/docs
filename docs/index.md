@@ -17,4 +17,5 @@ You can get started by jumping straight into product documentation using the tab
 
 ### Commonly visited pages
 - [SCO v3 Installation Guide](/jsm/sco-v3/installation)
+- [SCO v3 Update Guide](/jsm/sco-v3/updating)
 - [Scan and Shop Installation Guide](/jsm/sco-v3/scanandshop)

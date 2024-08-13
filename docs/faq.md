@@ -1,7 +1,8 @@
 # Frequently Asked Questions
+Here's what we're frequently asked - check here first, as your question may already be answered.
 
 ### How can I get my products? {#claim-products}
-We have implimented a more streamlined process for purchasing and downloading our products. Please visit [Axon](https://axon.whitehill.group) to get started.
+We have implemented a more streamlined process for purchasing and downloading our products. Please visit [Axon](https://axon.whitehill.group) to get started.
 
 ### Where can I download AutoPro? {#claim-autopro}
 AutoPro does not use Axon licencing, and is available from the [Roblox Creator Store](https://www.roblox.com/library/6781975106).
