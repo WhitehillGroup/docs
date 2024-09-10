@@ -26,3 +26,9 @@ There are a number of reasons your turnstiles may not be working correctly. Thes
 - Your game is unpublished, go to `File > Publish to Roblox`
 
 :::
+
+:::info
+
+If your product still doesn't work, and it is a new baseplate, please try restarting Roblox Studio. Sometimes, Roblox likes to say it can't work, but, in actual fact, it does work if you just restart Roblox Studio.
+
+:::

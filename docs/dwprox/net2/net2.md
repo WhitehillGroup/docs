@@ -38,3 +38,9 @@ Please be aware there are 2 main configuration files, One named 'Settings' allow
 If you require more assistance, please make a ticket in our [Discord server](https://discord.whitehill.group) (13+)
 
 :::
+
+:::info
+
+If your product still doesn't work, and it is a new baseplate, please try restarting Roblox Studio. Sometimes, Roblox likes to say it can't work, but, in actual fact, it does work if you just restart Roblox Studio.
+
+:::
