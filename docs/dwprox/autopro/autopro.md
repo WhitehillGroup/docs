@@ -1,7 +1,6 @@
-
 :::warning
 
-This will not work if you are using AutoPro v1 or haven't updated your product which you can do by following this [video](https://youtu.be/SB3it9Jkqbc)
+This will not work if you are using AutoPro v1 or haven't migrated your product which you can do by following this [video](https://youtu.be/SB3it9Jkqbc)
 
 :::
 
@@ -27,7 +26,7 @@ Use the built in Roblox movement tools to position the inserted doors and contro
 
 :::info
 
-You can only have one controller in the network, however, you can duplicate the controller and doors as much as you need.
+You can have multiple auto pro networks in game, however each can only have one controller. A network can have any number of doors
 
 :::
 
