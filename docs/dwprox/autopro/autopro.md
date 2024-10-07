@@ -23,17 +23,24 @@ In Roblox Studio with your selected game open, click the 'Home' tab, then 'Game 
 Insert your file by 'dragging' the product file into Roblox Studio with your game fully loaded. Use `CTRL + U` to ungroup the model.
 
 ### 3) Product Installation {#3}
-Use the built in Roblox movement tools to position the inserted doors and controllers.
+Use the movement tools to position the inserted doors and controller.
 
-:::info
+:::warning[Don't get caught out!]
 
-You can have multiple AutoPro networks in your game and they can have as many doors as you'd like, however each can only have **one** controller.
+Each network can only have one controller. Choose which controller you'd like to use and delete the other one, otherwise you may see an error.
+
+:::
+
+:::tip
+
+You can put multiple doors in one network to control multiple sets of doors from one controller.
+
+Simply duplicate the doors and ensure they're in the correct model.
 
 :::
 
 ### 4) Product Configuration {#4}
-Please be aware there is only one configuration file for this product, This file is named 'Settings' and is located in the main model. This file contains all the settings for the automatic doors.
-
+Please be aware there is only one configuration file for this product, this file is the 'Settings' module in the main model. This file contains all the settings for the automatic doors.
 
 :::info
 
