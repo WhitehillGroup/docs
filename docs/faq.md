@@ -4,9 +4,6 @@ Here's what we're frequently asked - check here first, as your question may alre
 ### How can I get my products? {#claim-products}
 We have implemented a more streamlined process for purchasing and downloading our products. Please visit [Axon](https://axon.whitehill.group) to get started.
 
-### Where can I download AutoPro? {#claim-autopro}
-AutoPro does not use Axon licencing, and is available from the [Roblox Creator Store](https://www.roblox.com/library/6781975106).
-
 ### Where can I download KONE Turnstiles? {#claim-turnstiles}
 KONE Turnstiles do not use Axon licencing, and is available from the [Roblox Creator Store](https://www.roblox.com/library/6821432149).
 
@@ -14,9 +11,9 @@ KONE Turnstiles do not use Axon licencing, and is available from the [Roblox Cre
 Please use our store on [Axon](https://axon.whitehill.group).
 
 ### Do you provide product transfers? {#product-transfers}
-We have introduced product transfers through our [ePortal](https://www.roblox.com/games/13188104119/Whitehill-ePortal). With this system, you have the ability to grant or revoke transferred licenses.
+We have introduced product transfers through [Axon](https://axon.whitehill.group). With this system, you have the ability to grant or revoke transferred licenses.
 
-Please be aware that AutoPro and KONE Turnstiles do not use the new Axon licensing system. As such, these products cannot be downloaded or transferred via Axon.
+Please be aware that KONE Turnstiles do not use the Axon licensing system. As such, these products cannot be downloaded or transferred via Axon.
 
 ### How can I become part of the support team? {#support-team}
 We do not often hire new staff members as we may be able to handle the load of tickets or have a decent amount of people in our team. Please keep your eye out for applications that may be posted, but we hand select our members most of the time anyways.
