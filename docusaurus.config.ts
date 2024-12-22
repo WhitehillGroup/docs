@@ -65,7 +65,7 @@ const config = {
                         position: "left",
                     },
                     {
-                        href: "/termsofuse",
+                        href: "/terms-of-use",	
                         label: "Terms of Use",
                         position: "left",
                     },
@@ -105,7 +105,7 @@ const config = {
                             },
                             {
                                 label: "Terms of Use",
-                                to: "/termsofuse",
+                                to: "/terms-of-use",
                             },
                             {
                                 label: "JSM Documentation",
