@@ -65,6 +65,11 @@ const config = {
                         position: "left",
                     },
                     {
+                        href: "/termsofuse",
+                        label: "Terms of Use",
+                        position: "left",
+                    },
+                    {
                         type: "docSidebar",
                         sidebarId: "dwpSidebar",
                         position: "left",
@@ -97,6 +102,10 @@ const config = {
                             {
                                 label: "Frequently Asked Questions",
                                 to: "/faq",
+                            },
+                            {
+                                label: "Terms of Use",
+                                to: "/termsofuse",
                             },
                             {
                                 label: "JSM Documentation",
