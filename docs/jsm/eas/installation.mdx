@@ -10,12 +10,6 @@ Download the recent available file for this product via [Axon](https://axon.whit
 
 :::
 
-:::warning
-
-SCO v3 includes a feature that disables the EAS on a product once it has been purchased. This feature is currently **incompatible** with JSM EAS.
-
-:::
-
 ### 1) Enable HTTP Requests {#1}
 <iframe width="705.61" height="397.5" src="https://www.youtube.com/embed/qtKN_3Moi7M" title="Enabling HTTP Requests" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"></iframe>
 
@@ -25,20 +19,20 @@ Insert your file by 'dragging' the product file into Roblox Studio with your gam
 Your game will need to be published for the product to work.
 
 ### 3) Monitoring Station & Operator Barcodes {#3}
-The monitoring station is used to keep track of activation events. It also comes with an integration for [VoCoVo](https://discord.com/invite/3DR632F).
+The monitoring station is used to keep track of activation events. It also comes with an integration for [VoCoVo](https://discord.com/invite/3DR632F) and [Walvo](https://discord.com/invite/kybo)
 
-1. Click the station in your workspace, then double-click `Settings` in explorer
-2. For **VoCoVo**, set `VocovoEnabled` to `true`
-3. Adjust other variables such as the `Access Pin` for login. Operator settings are for the operator barcode.
-4. Match the `OperatorID` and `OperatorSecurityKey` you picked to the 'Operator Barcode' in explorer by clicking `SCO-AUTH`.
+Setting up Integrations is simple with the 'AutomaticIntegrations' setting, with this setting you can choose if you want to use the Applegate VoCoVo or the Kybo Walvo. Setting the value next to it to true will enable it.
 
-![exampleOperatorBarcode](img/operatorBarcode.png)
+:::tip
 
-:::warning
-
-The operator barcodes that are included with JSM SCO v3.1 are **not compatible** with the latest version of JSM EAS. You will have to use the old barcodes.
+Want to use the same accounts as SCO V3? Set the 'SCOv3Location' to your SCOv3 folder.
 
 :::
+
+Make sure the 'OperatorID' in the Settings.Account module are the same as the one in your JSM | Operator Barcode.
+![accountsConfig](img/AccountSettings.png)
+
+![exampleOperatorBarcode](img/BarcodeProps.png)
 
 ### 4) Gate Configuration {#4}
 If you're planning to use more than one set of anti-theft gates for your store, you will need to setup 'zones'. This needs to be done for the gate & sensor.
@@ -46,7 +40,6 @@ If you're planning to use more than one set of anti-theft gates for your store, 
 1. In explorer, click the 'Sensor' for your desired gate
 2. Change the `Zone` to a unique numerical value that isn't used by any other gate
 3. Repeat this for both of your anti-theft gates, using the same numerical value as your sensor
-
 :::tip
 
 You can have an unlimited number of sensor and anti-theft gates for your game, just adjust the `Zone` in each model to link them together.
@@ -63,8 +56,9 @@ This step is very important to prevent activations all over your store. If a sen
 The **Test Tag** can be used to test your gates, it can also show you how to 'protect' your product to raise an alarm from the anti-theft gates.
 
 1. Click onto your desired tool in explorer
-2. **Inside** the `Handle`, click the plus & search for `BoolValue`
-3. Change the name of the `BoolValue` to `EAS_Active`
-4. Enable the value to 'arm' the tag for future activations
+2. **Inside** the Tool, click the plus & search for `BindableFunction`
+3. Change the name of the `BindableFunction` to `JSM | EAS Test Tag`
+4. Add a 'booleen' attribute into the 'JSM | EAS Test Tag', it should be called 'EASActive'
+5. Enable the 'EASActive' value to 'arm' the tag for future activations.
 
-Products like SCO v3 will search for `EAS_Active` inside your tool handle, and will then disable the value to prevent activating the gate's alarm.
+Products like SCO v3 will search for the 'JSM | Item Data' object and disable the EASActive value.
