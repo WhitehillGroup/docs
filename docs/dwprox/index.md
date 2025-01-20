@@ -27,3 +27,10 @@ Get started by buying or taking a Whitehill product from our [ePortal](https://w
 Once done, you can move onto downloading your desired product from [Axon](https://axon.whitehill.group) unless the model is provided via the [ePortal](https://www.roblox.com/games/13188104119/Whitehill-ePortal) (KONE Turnstiles).
 
 If you've followed this documentation and you're still experiencing issues please open a ticket in our [Discord server.](https://discord.whitehill.group/)
+
+
+:::info
+
+If your product still doesn't work, and it is a new baseplate, please try restarting Roblox Studio. Sometimes, Roblox likes to say it can't work, but, in actual fact, it does work if you just restart Roblox Studio.
+
+:::
