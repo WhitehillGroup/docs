@@ -127,7 +127,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} Whitehill Group.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Whitehill Group.`, 
             },
             prism: {
                 theme: prismLight,
