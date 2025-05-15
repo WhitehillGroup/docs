@@ -13,7 +13,7 @@ Failure to abide by these terms may result in your licence being revoked or a bl
 
 ## Introduction
 
-By purchasing a JSM Product, you automatically agree to these terms. If you do not agree to follow these terms, you should stop using our products immediately.
+By purchasing a Whitehill Product, you automatically agree to these terms. If you do not agree to follow these terms, you should stop using our products immediately.
 
 ## Terms of Use
 - You agree not to attempt to bypass the licencing system of our products, as well as perform unauthorised modification of the engine script.
